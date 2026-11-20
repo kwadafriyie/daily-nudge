@@ -1,8 +1,8 @@
-# HabitTrackerWebApp
-# Project Name: 
-The Daily Nudge 
+# The Daily Nudge 
+# Team: 
+Built with Lucas Heinrichs and Joshua Leon for CptS 322 (Software Engineering I) at WSU. I led the backend: habit models, streak-calculation logic, the pet-evolution system, and the 24-test suite. Original repo: vryo1/HabitTrackerWebApp.
 ## Project summary: 
-The project will be a web app that can be used by users to create habits that repeat over a
+The project is a web app that can be used by users to create habits that repeat over a
 specified frequency, as well as manage those habits and adjust them to suit their goals. The UI
 will is intuitive to make tracking habits the main focus, while remaining easy to do other
 tasks like creating new habits and managing existing ones.
@@ -30,7 +30,7 @@ As of now, TheDailyNudge-HabitTrackerWebApp is a Django web app backed by Postgr
 ### Installation Steps
 1. **Clone the repository**
 ```bash
-git clone https://github.com/vryo1/HabitTrackerWebApp.git
+git clone https://github.com/kwadafriyie/daily-nudge.git
 cd HabitTrackerWebApp
 ```
 2. **Create and activate virtual environment**
@@ -52,7 +52,7 @@ Edit `.env` and fill in:
 SECRET_KEY=your-own-long-random-string
 DATABASE_URL=ask-a-team-member-for-the-supabase-url
 ```
-5. **Apply datbase migrations**
+5. **Apply database migrations**
 ```
 cd client
 python manage.py migrate
@@ -90,3 +90,9 @@ Expected output: `Ran 24 tests OK
 The app is hosted on Supabase's free tier, which pauses the database after periods of inactivity. If the app appears unresponsive, visit the Supabase dashboard to resume the project.
 
 ## Additional Documentation
+
+Sprint reports from the 3-sprint development cycle:
+
+- [Sprint 1 Report](Sprint1Report.md)
+- [Sprint 2 Report](Sprint2Report.md)
+- [Sprint 3 Report](Sprint3Report.md)
